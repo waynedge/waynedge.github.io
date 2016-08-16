@@ -1,0 +1,12 @@
+body {font-family: "Open Sans",sans-serif}
+h1{color: #EA0B19}
+.container{min-height: 60px;}
+.navbar-default {  background-color: #322332;  border-color: #e7e7e7; margin-bottom: -40px}
+.navbar-brand{  padding: 5px 15px;    }
+.page-header{   background-color: #F7F7F7}
+.btn-block{ max-height: 45px}
+.min-height{    min-height: 100px; padding-bottom: 30px}
+#selectMasterPlanningPartner{  width :100%;  background-color: #fff;  height: 40px;  }
+#TotalProperties{ background-color: #fff; height: 40px; width: 40px; margin: 0 30px; text-align: center  }
+#bulkSlider{    margin: 10px 0;  }
+.btn-success{ background-color: #352A3C}
