@@ -23,8 +23,7 @@ $('#bulkSlider').on('change', function(){
 /* Toggle checkbox */
 $('#selectAllSel').on('change', function () {
     if (this.checked){
-        var n = totalProperties;
-            $(':checkbox').slice(0,n).each(function () {
+            $(':checkbox').slice(0,totalProperties).each(function () {
                 $(this).prop('checked', true);
             });
     }else{
@@ -37,7 +36,7 @@ $('#selectAllSel').on('change', function () {
 $('#reassign').on('click', function () {
         var amt = totalProperties;
         var dpVal = $('#selectMasterPlanningPartner').val();
-        $('.currentAsignedLabel').slice(0,amt).each(function () {
+        $('.currentAssignedLabel').slice(0,amt).each(function () {
             $(this).html(dpVal);
     });
 
